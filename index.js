@@ -15,3 +15,4 @@ message.member.voiceChannel.join().catch(e => message.channel.send(e));
   
 
 client.login(process.env.BOT_TOKEN); 
+
