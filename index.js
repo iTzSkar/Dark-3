@@ -10,9 +10,8 @@ client.on('message', message => {
  if(message.content.startsWith(prefix + "join")) {
 message.member.voiceChannel.join().catch(e => message.channel.send(e));
 }
-}); ///hi
+});
 
   
-
 client.login(process.env.BOT_TOKEN); 
 
