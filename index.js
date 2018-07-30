@@ -6,11 +6,11 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
-client.on('message', message => {
+client.on('message', message => { 
  if(message.content.startsWith(prefix + "join")) {
 message.member.voiceChannel.join().catch(e => message.channel.send(e));
 }
-});
+}); ///hi
 
   
 
